@@ -1,0 +1,74 @@
+body
+{   padding:0;
+    margin:0;
+    margin: 0px auto;
+    background-color: #ccc;
+}
+#wrapper
+{   
+    width:500px;
+    margin:0px auto;
+   
+    background-color: #fff;
+    min-height: 500px;
+    margin-top: 40px;
+    border:1px solid #999;
+    border-bottom:3px solid #999; 
+    
+}
+#form
+{
+     width:200px;
+     margin: 0px auto;
+     margin-top: 20px;
+   
+}
+#infield
+{
+
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.img
+{
+    /*transform:rotate(270deg);*/
+    width:100px;
+    height:100px;
+}
+.table
+{
+    width: 100%;
+    text-align: center;
+    
+}
+.table th
+{
+    width: 60px;
+}
+.table th:last-child
+{
+    width:130px;
+}
+.table1
+{
+    width: 100%; 
+}
+.table1 tr
+{
+    height: 100px;
+}
+.table1 tr td
+{
+    width: 40px;
+    text-align: center;
+    
+}
+
+.table1 td:last-child
+{
+    width:130px;
+}
+.table1  td:second-child
+{
+    width:10px;
+}

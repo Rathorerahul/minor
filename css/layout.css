@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+color: #3b5265;
+font-weight: 400;
+font-size: 14px;
+line-height: 27.2px;
+line-height: 1.7rem;
+}
+p{
+    color: #606060;
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+margin-bottom: 15px;
+}
+.header{
+    width:100%;
+    height: 110px;
+    background: white;
+}
+.logo{
+    width: 265px;
+    height: 110px;
+    padding: 13px 0;
+}
+.logo img{
+      display: inline-block;
+      float: left;
+     
+      left: 50px;
+}
+.company-info{
+    width: 555px;
+    height: 110px;
+   padding-left: -10px  ;
+    float: left;
+}
+.company-info-item{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.header-icon{
+    display: inline-block;
+   
+    width: 18%;
+    height: 12%;
+    float: left;
+}
+.header-info{
+    float: left;
+    width: 82%;
+}
+.header-info h6{
+    font-family: montserrat sans-serif;
+    line-height: 15px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+}
+.header-info p{
+    color: #606060;
+font-size: 12px;
+font-weight: 300;
+line-height: 12px;
+margin-bottom: 0;
+position: relative;
+top:-10px;
+}
+.company-info .company-info-item:nth-child(2) {
+    padding-left: 5%;
+}
+.header-info h6 a{
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-info h6 a:hover{
+    color: green;
+    text-decoration: none;
+    font-family:  'Courier New', Courier, monospace;
+}
+.navbar-content{
+    height:570px;
+   
+}
+.navbar navbar-inverse{
+
+    background-color: white;
+}
+.find-home{
+    height: 240px;
+    background:rgb(9, 9, 99);
+  
+}
+
+.call-to-bg{
+    position: relative;
+}
+.bg-blue{
+    background:#1f223e;
+}
+.plr-140{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.section-title{
+    
+}
+.find-home .section-title{
+    margin-top: 28px;
+}
+.section-title h3{
+    font-weight: 600;
+}
+.section-title h3,.section-title h1,.section-title h2{
+    margin-bottom: 0;
+}
+.text-white{
+    color: white;
+}
+.section-title-2{
+    margin-bottom: 55px;
+    width: calc(100%-30%);
+}
+.text-center{
+    text-align: center;
+}
+.section-title-2 h2{
+    font-family: 'Raleway',sans-serif;
+    color:#1f223e;
+    font-size: 30px;
+}
+.imgone{
+    position: absolute;
+    float: left;
+    width:-2px;
+    height: -2px;
+    background: rgb(226, 7, 7);
+}
+.imgtwo{
+    position: relative;
+    width:200px;
+    float: left;
+    height: 200px;
+    background: blue;
+    left: 250px;
+}
+.imgthree{
+   
+        position: relative;
+        width:200px;
+       
+        height: 200px;
+        background: slateblue;
+       left: 500px;
+}
+.imgfour{
+    position:relative;
+    width:200px;
+    float:left;
+    height: 200px;
+    background: blue;
+    left:750px;
+    top:-200px;
+}
+.slick-slider{
+    position: relative;
+display: block;
+box-sizing: border-box;
+}
+@(min-width: 1170px) and (max-width: 1400px)
+.plr-140{
+    padding-left:2%;
+    padding-right:2%;
+
+<!-- css for available properties -->
+

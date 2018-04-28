@@ -1,0 +1,364 @@
+body{
+/*  background-color:#c2c2a3;*/
+
+padding-top: 80px;
+}
+
+.senior{
+	
+	width:100%;
+}
+
+
+/* slides css start */
+
+
+
+.carousel-inner{
+	
+	height:550px ;
+	margin-top:-5px
+	
+}
+
+img.img-responsive{
+	width:100%;
+}	
+
+
+
+/* slides css end */
+
+
+
+
+/* dropdown css  start*/
+.dropdown-menu{
+  position: absolute;
+  margin:0;
+  font-size: 16px;
+}
+.dropdown:hover  .dropdown-menu {
+display:block;
+background-color: #E0E0E0;
+}
+.rowd{
+width:500px;
+height:10%;
+}
+.columnd {
+    float: left;
+    width: 33%;
+    padding-left: 30px;
+  padding-right: 50px
+    background-color: #ccc;
+    height: 200px;
+}
+
+.columnd a {
+    float: none;
+    color: black;
+    padding:16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.columnd h4{
+  color: orange;
+}
+
+.columnd a:hover {
+    background-color: #F8F8F8;
+}
+
+/* Clear floats after the columns */
+.rowd:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* dropdown css end*/
+
+
+.navbar-brand  .active  .aboutus{
+font-family:sans-serif;
+font-size:20px ;
+}
+
+.row{
+	padding-left:40px;
+	
+	
+	
+	
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding-right:2px;
+}
+.section{
+ box-sizing: border-box;  
+}
+.section strong{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 68%;
+  padding-left: 0px;
+  background-color: white;
+}
+.card img{
+
+  width:100%;
+  height:250px;
+}
+
+
+
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: red;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/* google map css */
+.section3 strong{
+  background-color: #2f2e3c;
+   padding: 100px 0 0px; 
+   font-family: sans-serif; 
+   text-align: center;
+
+}
+/* end --- */
+
+
+
+
+/* who we are css */
+.section4{ 
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+ }
+ .section4 strong{
+ background-color: #2f2e3c;
+   
+   font-family: sans-serif; 
+   text-align: center;
+   padding-bottom:10% ;
+   
+ }
+ .button2 {
+  background-color: orange;
+ }
+.card2 img{
+
+  border-radius: 50%;
+  width:90px;
+}
+.card2{
+  width:50%;
+  height:10%;
+}
+
+/* end of wwr */
+
+
+/* footer css */
+.section5 { padding-bottom: 0px; }
+.site-footer {      background-color: #2f2e3c; padding: 100px 0 0px; font-family: sans-serif; }
+.site-footer a { color: white; }
+.site-footer .copy { text-align: center; margin-top: 50px; color: white;}
+
+.widget .widget-title { font-size: 30px;  font-weight: 100; color:white;}
+.h3 .company-name .comapnt-add {color: white;}
+.subscribe input { padding: 8px 10px; margin-right: 10px; width: auto; display: inline-block; }
+
+.social-links a { 
+  width: 40px;
+   height: 40px; 
+   border-radius: 50%; 
+   display: inline-block; 
+   text-align: center;
+    color: white;
+     font-size: 45px;
+      font-size: 1.66667rem;
+       line-height: 1.8;
+        margin-right: 10px; 
+        -webkit-transition: .3s ease;
+         transition: .3s ease; }
+.social-links a.facebook { background-color: #4b66a0;  }
+.social-links a.facebook:hover { background-color: #6680b8; }
+.social-links a.twitter { background-color: #5dd7fc; }
+.social-links a.twitter:hover { background-color: #8fe3fd; }
+.social-links a.google-plus { background-color: #d95232; }
+.social-links a.google-plus:hover { background-color: #e1765d; }
+.social-links a.pinterest { background-color: #cc2e3c; }
+.social-links a.pinterest:hover { background-color: #d95460; }
+
+/*end of footer */
+/***********boss**************/
+.second_nav {
+	height: 50px;
+margin-top: -15px;
+}
+.boss
+{
+    margin-top: 10px;
+}
+.boss2
+{
+    margin-top: -10px;
+}
+.wrappper
+{
+    position: relative;
+    top: -30px;
+    width: 100%;
+    height: 100%;
+    background: url('../images1/home.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: center;
+}
+.wrappper::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    opacity: 0.7;
+}
+.bg-form {
+	background-color: #f0f8ff;
+	opacity: 0.81;
+	position: relative;
+}
+.for-register {
+/*	background-color: #abec3f;*/
+/*	opacity: 0.7;*/
+   
+	padding-top: 100px;
+	padding-bottom: 20px;
+
+    margin-bottom: -30px;
+}
+.for-img img
+{
+    width: 100%;
+    height: 165px;
+}
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+ .adv-search {
+        width: 375px;
+        margin: 0 auto;
+        margin-left: 145px;
+     float: left;
+    }
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 375px;
+        margin: 0 auto;
+        margin-left: 145px;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+.btn-primary1:hover {
+	color: #fff;
+	background-color: #f37912;
+	border-color: #f37912;
+}
+.btn-primary1 {
+	color: #fff;
+	background-color: #ff8700;
+	border-color: #ff8700;
+}
+.all-form {
+	/* text-align: center; */
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	margin: 0 auto;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
